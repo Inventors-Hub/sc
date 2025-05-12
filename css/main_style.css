@@ -1,0 +1,198 @@
+/* ------------------- Base Styles ------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.2em;
+    color: #4E4E4E; /* Neutral Gray */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------------- Layout ------------------- */
+.page {
+    flex: 1; /* pushes footer to bottom */
+    padding: 0 10%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+td {
+    padding: 10px;
+    vertical-align: middle;
+    text-align: justify;
+}
+
+.text-cell {
+    width: 80%;
+}
+
+.image-cell {
+    width: 20%;
+    text-align: center;
+}
+
+/* ------------------- Header ------------------- */
+.header {
+    width: 100%;
+    background-image: url('../images/Eros4NRG.jpg');
+    background-size: cover;
+    border: 1px solid #14532D; /* Deep Green */
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleText {
+    font-size: 3.6em;
+    font-family: 'Amiko', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #FFFFFF; /* White */
+}
+
+.subtitleText {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #2E7D5F; /* Medium Green */
+    background-color: #FFFFFF; /* White */
+    padding: 8px 30px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+/* ------------------- Navigation Bar ------------------- */
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14532D; /* Deep Green */
+    padding: 10px 0;
+}
+
+.links a {
+    font-weight: bold;
+    color: #FFFFFF; /* White */
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 10px; 
+    border-radius: 6px;
+}
+
+.links a:hover {
+    background-color: #103822; /* Darker Green */
+}
+
+/* ------------------- Typography ------------------- */
+.page_header {
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #14532D; /* Deep Green */
+    text-align: center;
+}
+
+.deep_blue_text {
+    color: #34568B; /* Deep Blue */
+}
+
+.white_text {
+    color: #FFFFFF; /* White */
+}
+
+/* ------------------- Cards ------------------- */
+.card {
+    width: 240px;
+    height: 350px;
+    display: inline-block;
+    margin: 12px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    vertical-align: top; /* Ensure cards align top if they differ in height */
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+}
+
+.card_img {
+    height: 40%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.card_img img {
+    max-width: 90%;
+    height: auto;
+}
+
+.card_head {
+    padding: 6px;
+    font-size: 1.2em;
+    color: #34568B; /* Deep Blue */
+    font-weight: bold;
+}
+
+.card_body {
+    padding: 6px 10px;
+    font-size: 0.9em;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+/* ------------------- Footer ------------------- */
+.footer {
+    width: 100%;
+    background-color: #14532D; /* Deep Green */
+    color: #FFFFFF; /* White */
+    text-align: center;
+    padding: 20px 0; 
+    position: relative;
+    bottom: 0;
+}
+
+.lessonHeader {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.footer table {
+    margin: 0 auto; 
+    font-size: 1.2em;
+}
+
+.footer td {
+    padding: 5px;
+}
+
+.clearFloat::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text_center {
+    text-align: center;
+}

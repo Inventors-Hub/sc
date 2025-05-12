@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <title>Eros4NRG</title>
+
+    <!-- jQuery and Other External Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- highlight.js (only if needed for code syntax highlighting) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+
+    <!-- Load the partial that includes extra meta tags, fonts, and CSS -->
+    <script>
+        $(function(){
+            $("#meta_info").load("page_elements/meta_info.html");
+        });
+    </script>
+</head>
+<body>
+
+    <!-- Load meta info, additional styles, fonts, etc. -->
+    <div id="meta_info"></div>
+
+    <!-- Header Section -->
+    <div id="header"></div>
+    <script>
+        $(function(){
+            $("#header").load("page_elements/header.html");
+        });
+    </script>
+
+    <!-- Page Content -->
+    <div class="page">
+        <p class="page_header">News</p>
+        <div id="cards"></div>
+        <script>
+            $(function(){
+                $("#cards").load("page_elements/cards.html");
+            });
+        </script>
+    </div>
+
+    <!-- Footer Section -->
+    <div id="footer"></div>
+    <script>
+        $(function(){
+            $("#footer").load("page_elements/footer.html");
+        });
+    </script>
+
+</body>
+</html>
