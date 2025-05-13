@@ -47,7 +47,7 @@ td {
 /* ------------------- Header ------------------- */
 .header {
     width: 100%;
-    background-image: url('../images/Eros4NRG.jpg');
+    /* background-image: url('../images/Eros4NRG.jpg'); */
     background-size: cover;
     border: 1px solid #14532D; /* Deep Green */
     min-height: 300px;
