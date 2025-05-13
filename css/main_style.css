@@ -47,7 +47,7 @@ td {
 /* ------------------- Header ------------------- */
 .header {
     width: 100%;
-    background-image: url('../images/sc.jpg');
+    background-image: url('../images/sc.png');
     background-size: cover;
     border: 1px solid #a79a06; /* Deep yellow */
     min-height: 300px;
