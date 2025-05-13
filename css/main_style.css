@@ -49,7 +49,7 @@ td {
     width: 100%;
     background-image: url('../images/sc.jpg');
     background-size: cover;
-    border: 1px solid #14532D; /* Deep Green */
+    border: 1px solid #a79a06; /* Deep yellow */
     min-height: 300px;
     display: flex;
     flex-direction: column;
@@ -80,7 +80,7 @@ td {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #14532D; /* Deep Green */
+    background-color: #a79a06; /* Deep Green */
     padding: 10px 0;
 }
 
@@ -96,7 +96,7 @@ td {
 }
 
 .links a:hover {
-    background-color: #103822; /* Darker Green */
+    background-color: #8a7f00; /* Darker Green */
 }
 
 /* ------------------- Typography ------------------- */
@@ -164,7 +164,7 @@ td {
 /* ------------------- Footer ------------------- */
 .footer {
     width: 100%;
-    background-color: #14532D; /* Deep Green */
+    background-color: #a79a06;/* Deep yellow */
     color: #FFFFFF; /* White */
     text-align: center;
     padding: 20px 0; 
